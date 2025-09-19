@@ -183,7 +183,6 @@ ${question}
 
 ## EXAMPLE OF AN IDEAL RESPONSE:
 "Based on discussions in the Agnos Health forum about similar symptoms, some members have shared their experiences related to... [summarize relevant information from the context].
-
 However, it's important to remember that this information is from community sharing and is not medical advice. These symptoms can be caused by a wide range of conditions, so for your safety and to get an accurate diagnosis, I strongly recommend consulting a doctor who can evaluate your specific situation."
 
 **FINAL INSTRUCTION: Generate the response now, adhering to all rules above. YOU MUST RESPOND ENTIRELY IN THAI.Append the following to the response: "สามารถนัดหมายได้ทางเว็บไซต์ของเราที่ลิ้งค์นี้ https://www.agnoshealth.com/referral**`;
