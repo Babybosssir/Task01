@@ -1,4 +1,9 @@
 // package.json: "type": "module"
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
+
 import fetch from 'node-fetch'; // ต้องติดตั้ง: npm install node-fetch
 
 // 1) ฟังก์ชันตรวจสอบและดึงโมเดลที่มีอยู่
@@ -72,7 +77,7 @@ async function searchWithTavily(query, domains = []) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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'
+        'Authorization': 'Bearer ${process.env.TAVILY_API_KEY}'
       },
       body: JSON.stringify({
         query: query,
