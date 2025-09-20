@@ -72,9 +72,9 @@ async function searchWithTavily(query, domains = []) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
+        'Authorization': 'Bearer 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'
       },
       body: JSON.stringify({
-        api_key: "",
         query: query,
         max_results: 4,
         include_domains: domains.length > 0 ? domains : undefined,

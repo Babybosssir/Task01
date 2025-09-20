@@ -25,7 +25,6 @@ code .
 2. สร้างไฟล์ `.env` ใส่ค่า:
 TAVILY_API_KEY=tvly-dev-...
 OLLAMA_URL=http://localhost:11434
-3. ติดตั้ง dependencies:
 ```bash
 npm install
 # ถ้าใช้ TypeScript:
